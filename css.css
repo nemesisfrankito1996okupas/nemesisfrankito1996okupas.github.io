@@ -2,6 +2,12 @@ header{
     width: 1200px;
     height: 600px;
 }
+p{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: uppercase;
+    font-size: medium;
+}
 
 
 .inicio{
@@ -26,7 +32,7 @@ header{
 
 }
 .diseño{
-    background-color: aqua;
+    background-color: rgb(21, 31, 31);
     position: absolute;
     width: 100%;
 
@@ -34,8 +40,8 @@ header{
 }
 .foto{
     position: absolute;
-    top: 16%;
-    left: 6%;
+    top: 200px;
+    left: 24px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -44,16 +50,18 @@ header{
     border-color: antiquewhite;
 }
 .caja{
-    margin-bottom: 30px;
-    margin-right: 100px;
+    position: relative;
+    margin-top: 53px;
+    top: -76px;
+    background-color: rgb(235, 235, 235);
+    width: 298px;
+    height: 50px;
+    border-radius: 55px 0px 51px 0px;
+    
+}
 
-    display: flex;
-    justify-items: center;
-    justify-content: center;
-    background-color: blue;
-    width: 150px;
-    height: 60px;
-    border-radius: 72px 0px 68px 0px;
+.caja:hover{
+    background-color: darkgoldenrod;
 }
 
 
