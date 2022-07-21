@@ -1,0 +1,60 @@
+header{
+    width: 1200px;
+    height: 600px;
+}
+
+
+.inicio{
+    background-color: black;
+    width: 100%;
+    height: 20px;
+}
+.capa1{
+    position: relative;
+    display: flex;
+
+    background-color: black;
+    width: 50%;
+    height: 600px;
+    align-content: stretch;
+    align-items:flex-end;
+    justify-content:center ;
+    flex-direction: column-reverse;
+}
+.capa2{
+    width: 50%;
+
+}
+.diseño{
+    background-color: aqua;
+    position: absolute;
+    width: 100%;
+
+
+}
+.foto{
+    position: absolute;
+    top: 16%;
+    left: 6%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: antiquewhite;
+}
+.caja{
+    margin-bottom: 30px;
+    margin-right: 100px;
+
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 150px;
+    height: 60px;
+    border-radius: 72px 0px 68px 0px;
+}
+
+
+
