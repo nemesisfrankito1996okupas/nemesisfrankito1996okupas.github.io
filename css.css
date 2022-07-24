@@ -1,68 +1,175 @@
+
 header{
-    width: 1200px;
-    height: 600px;
-}
-p{
-    text-align: center;
-    text-decoration: overline;
-    text-transform: uppercase;
-    font-size: medium;
-}
-
-
-.inicio{
-    background-color: black;
-    width: 100%;
-    height: 20px;
-}
-.capa1{
-    position: relative;
+  
     display: flex;
+    width: 1800px;
+    height: 700px;
+    background-color: beige;
 
-    background-color: black;
-    width: 50%;
-    height: 600px;
-    align-content: stretch;
-    align-items:flex-end;
-    justify-content:center ;
-    flex-direction: column-reverse;
 }
 .capa2{
+    background-color: rgb(151, 28, 28);
     width: 50%;
+    height: 100%;
 
 }
-.diseño{
-    background-color: rgb(21, 31, 31);
-    position: absolute;
-    width: 100%;
 
 
-}
-.foto{
-    position: absolute;
-    top: 200px;
-    left: 24px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 4px;
-    border-color: antiquewhite;
-}
-.caja{
+
+.capa1{
     position: relative;
-    margin-top: 53px;
-    top: -76px;
-    background-color: rgb(235, 235, 235);
-    width: 298px;
-    height: 50px;
-    border-radius: 55px 0px 51px 0px;
+    width: 50%;
+    height: 100%;
+
+}
+
+
+
+.lineales{
+    position: relative ;
+    display: flex;
+    background-color: rgb(3, 3, 7);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+#path1{
+    stroke: rgb(0, 255, 34);
+    stroke-width: 10px;
+    stroke-dasharray: 1614px;
+    stroke-dashoffset: 1613px;
+    animation: mianimacion 3s ease-in forwards infinite ;
+}
+
+
+#path2{
+
+    stroke: rgb(255, 17, 0);
+    stroke-width: 10px;
+    stroke-dasharray: 1614px;
+    stroke-dashoffset: 1613px;
+    animation: mianimacion 3s ease-in  infinite ;
     
 }
 
-.caja:hover{
-    background-color: rgb(211, 158, 23);
+#path3{
+
+    stroke: rgb(255, 187, 0);
+    stroke-width: 10px;
+    stroke-dasharray: 1614px;
+    stroke-dashoffset: 1613px;
+    animation: mianimacion 3s ease-in  infinite ;
+    
 }
+
+#path4{
+
+    stroke: rgb(0, 4, 255);
+    stroke-width: 10px;
+    stroke-dasharray: 1614px;
+    stroke-dashoffset: 1613px;
+    animation: mianimacion 3s ease-in  infinite ;
+    
+}
+
+
+
+@keyframes mianimacion{
+    0%{
+        stroke-dashoffset: 1613px;
+    }
+    20%{
+        stroke-dashoffset: 1200px;
+    }
+    40%{
+        stroke-dashoffset: 1000px;
+    }
+    60%{
+        stroke-dashoffset: 800px;
+    }
+    80%{
+        stroke-dashoffset: 400px;
+    }
+    100%{
+        stroke-dashoffset: 200px;
+    }
+}
+.fotos{
+    position: absolute;
+    top: 190px;
+    right: 625px;
+    width: 96px;
+    height: 88px;
+    border-radius: 50%;
+    border: solid rgb(88, 16, 28);
+}
+
+section{
+    display: flex;
+    position: absolute;
+    right: -36px;
+    top: 115px;
+    width: 500px;
+    height: 397px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.capas1{
+    position: relative;
+    background-color: #fdfdfd;
+    width: 339px;
+    height: 77px;
+    border-radius: 105px 0px 158px 0px;
+    animation: colores 5s infinite;
+   
+}
+
+div.capas1:hover{
+   transition: 4s;
+
+    border-color: blue;
+    box-shadow: -1px 1px 20px 14px rgb(29 39 232 / 75%);
+}
+
+
+@keyframes colores{
+   0%{
+    background-color: aqua;
+   }
+
+}
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
